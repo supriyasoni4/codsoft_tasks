@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(241, 238, 238);
+}
+
+ul {
+    list-style-type: disc;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    background: brown;
+    color: white;
+    font-weight: bolder;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    color: white;
+
+}
+
+header nav a:hover {
+    color: yellow;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: beige;
+}
+
+.content .btn {
+    display: inline-block;
+    margin-top: 15px;
+    background: rgb(200, 100, 75);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.my-img img {
+    width: 400px;
+    border-radius: 40px;
+}
+
+.about {
+    padding: 25px;
+    background-color: rgb(252, 229, 229);
+
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.about-content img {
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 6px;
+
+}
+
+.skills {
+    padding: 15px;
+    background-color: bisque;
+    border-bottom: 3px solid white;
+}
+
+.skills h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.skills li {
+    color: white;
+    padding: 10px 25px;
+    font-weight: 700;
+    border-radius: 5px;
+    list-style-type: none;
+    background: #d7a768;
+}
+
+.resume {
+    padding: 10px;
+    background-color: bisque;
+    text-align: center;
+}
+
+.resume p {
+    color: #c28331;
+}
+
+.resume h2 {
+    margin-bottom: 10px;
+}
+
+.resume .btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: rgb(200, 100, 75);
+    padding: 8px 15px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+.resume a:hover {
+
+    color: black;
+}
+
+.contact {
+    padding: 10px;
+
+
+}
+
+footer {
+    background-color: brown;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
